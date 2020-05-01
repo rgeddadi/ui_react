@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
+import Social from './Social.js';
 
 class App extends Component {
   state={displayBio: false}
@@ -35,6 +36,10 @@ return(
       }
       <hr />
       <Projects />
+      <hr/>
+  
+      
+      <Social />
       </div>
 )
 }
