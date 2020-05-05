@@ -6,7 +6,7 @@ class Social extends Component{
   const {snap, link} = this.props.Social;
   return(
     <div style={{display:'inline-block'}}>
-      <a href={link}> <img src={snap} style={{width:60 , height: 60}}/> </a>;
+      <a href={link}> <img src={snap} style={{width:60 , height: 60, margin: 10}}/> </a>
 
     </div>
 

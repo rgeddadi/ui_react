@@ -1,0 +1,48 @@
+ @font-face{
+  font-family: FrankRuhlLibre-Light;
+  src: url(Assests/Frank_Ruhl_Libre/FrankRuhlLibre-Light.ttf);
+}
+
+@font-face{
+  font-family: FrankRuhlLibre-Bold;
+  src: url(Assests/Frank_Ruhl_Libre/FrankRuhlLibre-Bold.ttf);
+}
+
+@font-face{
+  font-family: Roboto_Condensed-Regular;
+  src: url(Assests/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+  font-weight: 800;
+}
+
+@font-face{
+  font-family: Roboto_Condensed-Italic;
+  src: url(Assests/Roboto_Condensed/RobotoCondensed-Italic.ttf);
+  font-weight: 800;
+}
+
+ 
+ body{
+   text-align: center;
+   font-size: 20;
+  font-Family: 'Roboto_Condensed-Italic';
+     padding: 2.5%;
+   line-height: 20px; 
+ }
+
+ h1, h2, h3, h4, h5 {
+   font-family: 'FrankRuhlLibre-Bold';
+ }
+
+ .projectStyle {
+  text-align: center;
+  font-size: 20;
+  font-Family: 'Roboto_Condensed-Italic';
+
+ }
+
+ .profileImg {
+   height: 200px;
+   width: 180px;
+   border-radius: 180px;
+  
+ }
