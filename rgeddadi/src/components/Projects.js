@@ -1,6 +1,6 @@
 import React,{ Component } from 'react';
-import PROJECTS from './Data/project';
-import Styles from './index.css';
+import PROJECTS from '../Data/project';
+import Styles from '../index.css';
 
 class Project extends Component{
       render(){

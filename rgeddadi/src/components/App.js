@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
 import Social from './Social.js';
-import Raj from './Assests/profile.jpeg';
-import profileImg from './index.css';
+import Raj from '../Assets/profile.jpeg';
+import profileImg from '../index.css';
 import Title from './Title.js'
 
 

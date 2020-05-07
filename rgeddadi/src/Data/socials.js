@@ -1,6 +1,6 @@
-import email from '../Social_assests/email_icon.png';
-import linkedin from '../Social_assests/linkedin_icon.png';
-import twitter from '../Social_assests/twitter_icon.png';
+import email from '../Social_assets/email_icon.png';
+import linkedin from '../Social_assets/linkedin_icon.png';
+import twitter from '../Social_assets/twitter_icon.png';
 
 const SOCIALS =[
   {

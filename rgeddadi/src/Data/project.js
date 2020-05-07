@@ -1,6 +1,6 @@
-import swds from '../Assests/Swds.png';
-import UWLogo from '../Assests/UWLogo.jpg';
-import web_dev from '../Assests/web_dev.jpg';
+import swds from '../Assets/Swds.png';
+import UWLogo from '../Assets/UWLogo.jpg';
+import web_dev from '../Assets/web_dev.jpg';
 
 const PROJECTS =[
 
