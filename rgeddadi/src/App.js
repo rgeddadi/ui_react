@@ -3,6 +3,8 @@ import Projects from './Projects';
 import Social from './Social.js';
 import Raj from './Assests/profile.jpeg';
 import profileImg from './index.css';
+import Title from './Title.js'
+
 
 class App extends Component {
   state={displayBio: false};
@@ -24,17 +26,19 @@ return(
     <div>
       <img src={Raj} className='profileImg'></img>
       <h1> Hello</h1>
-      <p> My self Raj Geddadi, I am in process of Learning React and looking for a good opprtunity to work on this technology</p>
+      <p> I'm Raj Geddadi</p> 
+      <p> I am in process of Learning React and looking for a good opportunity to work on this technology</p>
       <p>To know more about Raj Geddadi, please click below</p>
       
       <h2>My Bio</h2>
       {this.state.displayBio ?
       (
         <div>
-          
-        <p> I'm a Master degree holder in Infroamtion Technology, I migrated from India to Us to persue my dream of becoming a sowtware engineer</p>
-        <p> I love playing outdoor game like cricket, badminton and basketball</p>
-        <p> I would love spend my time by trecking or long road trips along my camping equipment</p>
+        { this.state.displayBio ? <Title /> :null }
+        <p> I'm a master’s degree holder in Information Technology, I have previously six years of experience in software industry working in different position</p>
+        <p> I love playing outdoor game like basketball, cricket and badminton </p>
+        <p> I would love to spend most of my time by participating in trekking or road trips along with my family and friends</p>
+
         <button onClick={this.toggleDisplayBio}> Minimize Bio </button>
         </div>
       ) : <div>
