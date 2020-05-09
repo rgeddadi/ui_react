@@ -3,7 +3,8 @@ import Projects from './Projects';
 import Social from './Social.js';
 import Raj from '../Assets/profile.jpeg';
 import profileImg from '../index.css';
-import Title from './Title.js'
+import Title from './Title.js';
+import News from './News.js'
 
 
 class App extends Component {
@@ -63,6 +64,9 @@ return(
       <hr/>
        <h3> Contact Info</h3>
       <Social />
+     
+      <hr/>
+      <News/>
       </div>
 )
 }
